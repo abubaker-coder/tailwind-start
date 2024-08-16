@@ -6,7 +6,64 @@
     <title>tailwind css</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1 class="text-red-900">hello world</h1>
+  <body class="p-0 m-0 font-arial">
+    <nav
+      class="h-20 w-[100%] bg-[none] fixed flex items-center justify-between"
+    >
+      <div class="ml-10">
+        <h1 class="text-white">LOGO</h1>
+      </div>
+      <div>
+        <h1 class="text-white text-2xl">Impulse</h1>
+      </div>
+      <div class="mr-10">
+        <img src="./img/manu.svg" alt="pic here" class="w-6 cursor-pointer" />
+      </div>
+    </nav>
+    <div
+      class="bg-[url(././img/background.jpg)] w-full h-screen bg-center bg-cover bg-no-repeat"
+    >
+      <div class="flex justify-center items-center h-[100vh] flex-col">
+        <h1 class="text-[50px] text-white">A taste of every lifestyle</h1>
+        <button class="h-[50px] w-[140px] bg-[#92400E] text-white rounded-full">
+          Read the blog
+        </button>
+      </div>
+      <div class="flex justify-between w-full b-0 -mt-12">
+        <button class="underline text-white ml-10">FIND OUT MORE</button>
+        <button class="underline text-white mr-10">GET IN TOUCH</button>
+      </div>
+    </div>
+    <div
+      class="bg-[white] h-[500px] w-[100%] flex justify-between items-center"
+    >
+      <div
+        style="margin-left: 100px"
+        class="h-[350px] w-[400px] flex items-center"
+      >
+        <img src="./img/snow.jpg" alt="pic here" />
+      </div>
+      <div class="h-[500px] w-[600px] bg-[#F3F4F6]">
+        <div class="h-[10px] w-[150px] bg-[#92400E]"></div>
+        <div>
+          <h1 class="text-[30px] text-center">
+            This is my third & latest post
+          </h1>
+          <p>
+            Bring to the table win-win survival strategies to ensure proactive
+            domination. At the end of the day, going forward, a new normal that
+            has evolved from generation X is on the runway heading towards a
+            streamlined cloud solution.
+          </p>
+        </div>
+        <div>
+          <button
+            class="h-[40px] w-[100px] bg-[tansparent] border-solid border-2 border-[#92400E] hover: bg-[#92400E]"
+          >
+            Read more
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
